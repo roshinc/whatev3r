@@ -82,36 +82,34 @@ textarea {
     resize: vertical;
 }
 
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
+/*To ensure that, when the screen size is smaller, 
+the text doesn't stick to edge */
+.content{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.938em;
+    padding-right: 0.938em;
+}
 
+.main {
+position: relative;
+padding: 1.8em 0.9em;
+text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*Home Footer*/
+footer {
+  padding-top: 0.5em;
+  color: #777777;
+  text-align: center;
+  border-top: 0.063em solid #e5e5e5;
+}
 
 /* ==========================================================================
    Helper classes
