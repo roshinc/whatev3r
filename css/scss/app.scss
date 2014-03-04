@@ -5,17 +5,31 @@ body{
 	}
 }
 header{
-	  background-color: rgb(229, 109, 109);
-  	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  	  text-align: center;
+	background-color: rgb(229, 109, 109);
+	box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.9);
+	text-align: center;
 
-  	  & a {
-		  color: white;
-		  text-decoration: none;
-		  &:hover, &:active, &:visited {
-  				color: #d3d3d3;
-			}
+	& a {
+		color: white;
+		text-decoration: none;
+		&:hover, &:active, &:visited {
+			color: #d3d3d3;
 		}
+	}
 }
 
+.container .row {  // used http://cssround.com/
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background:rgba(227,162,11,0.3);
+
+}
+footer {
+	text-align: center;
+	-webkit-border-radius: 0px 0px 0.938em 1.063em;
+	-moz-border-radius: 0px 0px 0.938em 1.063em;
+	border-radius: 0px 0px 0.938em 1.063em;
+	background:rgba(227,162,11,0.3);
+}
 
