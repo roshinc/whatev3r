@@ -1,0 +1,21 @@
+body{
+	background: {
+		image:url('http://i.cubeupload.com/uP5cjy.jpg');
+		repeat:repeat;
+	}
+}
+header{
+	  background-color: rgb(229, 109, 109);
+  	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  	  text-align: center;
+
+  	  & a {
+		  color: white;
+		  text-decoration: none;
+		  &:hover, &:active, &:visited {
+  				color: #d3d3d3;
+			}
+		}
+}
+
+
