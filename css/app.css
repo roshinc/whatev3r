@@ -1,0 +1,17 @@
+body {
+  background-image: url("http://i.cubeupload.com/uP5cjy.jpg");
+  background-repeat: repeat;
+}
+
+header {
+  background-color: #e56d6d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header a:hover, header a:active, header a:visited {
+  color: #d3d3d3;
+}
