@@ -90,7 +90,7 @@ textarea {
 
 /*To ensure that, when the screen size is smaller, 
 the text doesn't stick to edge */
-.content{
+/*.content{
     margin-right: auto;
     margin-left: auto;
     padding-left: 0.938em;
@@ -103,13 +103,13 @@ padding: 1.8em 0.9em;
 text-align: center;
 }
 
-/*Home Footer*/
+/*Home Footer
 footer {
   padding-top: 0.5em;
   color: #777777;
   text-align: center;
   border-top: 0.063em solid #e5e5e5;
-}
+}*/
 
 /* ==========================================================================
    Helper classes
