@@ -16,6 +16,26 @@ header a:hover, header a:active, header a:visited {
   color: #d3d3d3;
 }
 
+/*This controls the properties on the four navigation buttons.*/
+.nav-button a:link, .nav-button a:visited {
+  display: block;
+  width: 90%;
+  min-height: 2.5em;
+  font-weight: bold;
+  color: black;
+  background-color: #B2D64F;
+  text-align: center;
+  padding: 0.05em;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #B2d64f;
+}
+.nav-button a:hover, .nav-button a:active {
+  background-color: #B4D35F;
+  border-style: solid;
+  border-color: white;
+}
+
 .container .row {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
