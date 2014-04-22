@@ -3,17 +3,29 @@ body {
   background-repeat: repeat;
 }
 
-header {
+header, .header {
   background-color: #e56d6d;
   box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.9);
   text-align: center;
 }
-header a {
+header a, .header a {
   color: white;
   text-decoration: none;
 }
-header a:hover, header a:active, header a:visited {
+header a:hover, header a:active, header a:visited, .header a:hover, .header a:active, .header a:visited {
   color: #d3d3d3;
+}
+
+.ss-style-doublediagonal::before,
+.ss-style-doublediagonal::after {
+  top: 0;
+  left: -25%;
+  z-index: -1;
+  width: 150%;
+  height: 75%;
+  background: inherit;
+  transform: rotate(-2deg);
+  transform-origin: 0 0;
 }
 
 /*This controls the properties on the four navigation buttons.*/
